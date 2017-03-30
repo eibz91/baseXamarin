@@ -43,7 +43,7 @@ namespace templateBase.iOS
 			// Show alert
 			if (!string.IsNullOrEmpty(alert))
 			{
-				UIAlertView avAlert = new UIAlertView("Notification", alert, null, "OK", null);
+				UIAlertView avAlert = new UIAlertView("Notification", alert, null, "OK1", null);
 				avAlert.Show();
 			}
 		}
