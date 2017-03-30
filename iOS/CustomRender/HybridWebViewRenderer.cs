@@ -3,11 +3,11 @@ using Foundation;
 using WebKit;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.iOS;
-using yooin;
-using yooin.iOS;
+using templateBase;
+using templateBase.iOS;
 
 [assembly: ExportRenderer(typeof(HybridWebView), typeof(HybridWebViewRenderer))]
-namespace yooin.iOS
+namespace templateBase.iOS
 {
 	public class HybridWebViewRenderer : ViewRenderer<HybridWebView, WKWebView>, IWKScriptMessageHandler
 	{
@@ -49,9 +49,6 @@ namespace yooin.iOS
 				}
 			}
 		}
-
-
-
 		public async void DidReceiveScriptMessage(WKUserContentController userContentController, WKScriptMessage message)
 		{
 
@@ -65,14 +62,7 @@ namespace yooin.iOS
 					userController.RemoveScriptMessageHandler("invokeAction");
 					await App.Nav.PopAsync();
 
-
 			}
-
-
-
-
 		}
-
-
 	}
 }

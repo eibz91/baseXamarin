@@ -4,7 +4,7 @@ using SQLite;
 using SQLite.Net;
 using Xamarin.Forms;
 
-namespace yooin
+namespace templateBase
 {
 	public class DataBaseAction
 	{

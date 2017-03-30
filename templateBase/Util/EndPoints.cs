@@ -1,5 +1,5 @@
 ﻿using System;
-namespace yooin
+namespace templateBase
 {
 	public static class EndPoints
 	{
@@ -8,10 +8,10 @@ namespace yooin
 
 
 
-		public static readonly string FCMSENDERID = "1016385348330";
+		public static readonly string FCMSENDERID = "39786301179";
 		public static readonly string DROIDMESSAGE = "gcm.notification.body";
 		public static readonly string URLAPIBASE = "http://192.168.100.101:8080/yooin.api/api/";
-		public static readonly string URLWEBBASE = "http://192.168.100.101:8080/yooin.web/";
-		public static readonly string LOGINWEB = "Common/Session/jsonServicios.aspx?a=loginFromMovil&b={0}&c={1}";
+		public static readonly string URLWEBBASE = "http://google.com";
+		public static readonly string LOGINWEB = "";
 	}
 }

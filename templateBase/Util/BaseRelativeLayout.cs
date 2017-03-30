@@ -1,7 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 
-namespace yooin
+namespace templateBase
 {
 	public class BaseRelativeLayout : ContentView
 	{
